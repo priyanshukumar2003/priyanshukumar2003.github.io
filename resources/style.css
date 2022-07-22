@@ -65,4 +65,4 @@ a
 .oth  { background-color:rgb(139,0,0);	 }
 .ig	      {	background-image: linear-gradient(to right, rgb(181,30,194), rgb(30,74,192));   		 }
 .ig:hover { background-image: none; moz-transition: 0.5s; -webkit-transition: 0.5s; transition: 0.5s;}
-body, .button, label, .container, .centered  {  font-family:'Quicksand', san-serif; }
+body, .button, label, .container, .centered  {  font-family: 'Quicksand', sans-serif; }
