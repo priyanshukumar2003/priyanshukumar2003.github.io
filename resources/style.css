@@ -1,58 +1,23 @@
-body
-{
-	background:black;
-	color:white;
-}
-a
-{
-	color:white;
-}
+body  {  background:black;  color:white; }
+a     {  color:white;  }
+label { font-size:150%; }
 
-.container
-{
+.container   {  text-align:center;  }
+.header      {  vertical-align:middle;  border-radius:80%;  width:12%;  }
+.centered    {  width:50%;  text-align:center;  margin: 0 auto; }
+button:hover {	background-color:white;	color:black;  }
 
-	text-align:center;
-}
-
-.header
+button
 {
-	vertical-align:middle;
-	border-radius:80%;
-	width:12%;
-}
-
-.centered 
-{
-	width:50%;
-	text-align:center;
-	margin: 0 auto;
-}
-.button
-{
-	cursor:pointer;
-	width:100%;
-	border:none;
-	color:white;
-	padding:10px;
-	text-align:center;
-	text-decoration:none;
-	display:inline-block;
-	border-radius:8px;
-	transition:0.4s;
-	font-size:18px;
-}
-
-.button:hover
-{
-	background-color:white;
-	color:black;
+	cursor:pointer;	    width:100%;	        color:white;	    padding:10px;	
+	text-align:center;	border-radius:8px;	transition:0.4s;	font-size:18px;
 }
 
 @media screen and (max-width: 450px)
 {
 	.centered { text-align:center; margin:none; width:100%; }
 	.container{ text-align:center; }
-	.header { width: 25%; }
+	.header   { width: 25%; }
 }
 
 .git  { background-color:#495057; 		 }
@@ -63,7 +28,9 @@ a
 .blog { background-color:#FC4F08;		 }
 .tg   { background-color:#0088CC; 		 }
 .oth  { background-color:rgb(139,0,0);	 }
+
+button, .centered { font-family: 'Quicksand', sans-serif;       }
+label, .container  { font-family: 'Red Hat Display', sans-serif; }
+
 .ig	      {	background-image: linear-gradient(to right, rgb(181,30,194), rgb(30,74,192));   		 }
 .ig:hover { background-image: none; moz-transition: 0.5s; -webkit-transition: 0.5s; transition: 0.5s;}
-.button, .centered { font-family: 'Quicksand', sans-serif; }
-label, .container  { font-family: 'Red Hat Display', sans-serif; }
