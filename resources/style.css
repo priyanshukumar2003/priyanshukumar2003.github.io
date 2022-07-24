@@ -1,9 +1,9 @@
 body  {  background:black;  color:white; }
-a     {  color:white;  }
-label { font-size:150%; }
+a     {  color:white;    }
+label {  font-size:150%; }
+img   {  border-radius:80%;  width:12%;  }
 
 .container   {  text-align:center;  }
-.header      {  vertical-align:middle;  border-radius:80%;  width:12%;  }
 .centered    {  width:50%;  text-align:center;  margin: 0 auto; }
 button:hover {	background-color:white;	color:black;  }
 
@@ -15,9 +15,9 @@ button
 
 @media screen and (max-width: 450px)
 {
-	.centered { text-align:center; margin:none; width:100%; }
-	.container{ text-align:center; }
-	.header   { width: 25%; }
+	.centered  { text-align:center; margin:none; width:100%; }
+	.container { text-align:center; }
+	.header    { width: 25%; }
 }
 
 .git  { background-color:#495057; 		 }
@@ -29,7 +29,7 @@ button
 .tg   { background-color:#0088CC; 		 }
 .oth  { background-color:rgb(139,0,0);	 }
 
-button, .centered { font-family: 'Quicksand', sans-serif;       }
+button, .centered  { font-family: 'Quicksand', sans-serif;       }
 label, .container  { font-family: 'Red Hat Display', sans-serif; }
 
 .ig	      {	background-image: linear-gradient(to right, rgb(181,30,194), rgb(30,74,192));   		 }
