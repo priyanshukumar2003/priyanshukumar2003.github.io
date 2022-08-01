@@ -19,7 +19,8 @@ border:none;
 	.centered  { width:100%; }
 	.container { text-align:center; }
 	img        { width: 30%; }
-
+}
+	
 .git  { background-color:#495057; 		 }
 .fb	  {	background-color:rgb(66,103,178);}
 .lin  {	background-color:#0072B1;	     }
