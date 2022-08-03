@@ -7,11 +7,10 @@ img   {  border-radius:80%;  width:12%;  }
 .centered    {  width:50%;  text-align:center;  margin: 0 auto; }
 button:hover {	background-color:white;	color:black;  }
 
-button
+button 
 {
 	cursor:pointer;	    width:100%;	        color:white;	    padding:10px;	border:none;
 	text-align:center;	border-radius:8px;	transition:0.4s;	font-size:18px;
-border:none;
 }
 
 @media screen and (max-width: 450px)
@@ -29,9 +28,10 @@ border:none;
 .blog { background-color:#FC4F08;		 }
 .tg   { background-color:#0088CC; 		 }
 .oth  { background-color:rgb(139,0,0);	 }
-.qu { background-color:#A82400; }
+.qu   { background-color:#A82400;        }
+.web1 { background-color:#000000; border:1px solid white; padding:180x;       }
 button, .centered  { font-family: 'Quicksand', sans-serif;       }
 label, .container  { font-family: 'Red Hat Display', sans-serif; }
-
-.ig	      {	background-image: linear-gradient(to right, rgb(181,30,194), rgb(30,74,192));   		 }
-.ig:hover { background-image: none; moz-transition: 0.5s; -webkit-transition: 0.5s; transition: 0.5s;}
+.ig	  {	background-image: linear-gradient(to right, rgb(181,30,194), rgb(30,74,192)); }
+.web2 {	background-image: linear-gradient(to right, rgb(20,88,153), rgb(20,147,91));  }
+.ig:hover, .web2:hover { background-image: none; moz-transition: 0.5s; -webkit-transition: 0.5s; transition: 0.5s;}
