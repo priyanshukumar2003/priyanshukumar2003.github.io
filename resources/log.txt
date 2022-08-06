@@ -1,1 +1,11 @@
-No Logs Maintained
+Here, time to time I mention the projects I'm currently working on. Also, my upcoming projects.
+
+Working On :
+1. ColorWorld (Inner Locus)
+2. ProgrammingBooks (Inner Locus)
+3. Portfolio (Priyanshu Kumar)
+
+Upcoming :
+1. Different screen sizes and CSS tags to implement them.
+2. Responsive tables using Bootstrap.
+3. CloudFlare Worker Website - Customized

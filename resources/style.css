@@ -27,11 +27,23 @@ button
 .tw	  {	background-color:#00ACEE;		 }
 .blog { background-color:#FC4F08;		 }
 .tg   { background-color:#0088CC; 		 }
-.oth  { background-color:rgb(139,0,0);	 }
+.pro  { background-color:rgb(139,0,0);   }
 .qu   { background-color:#A82400;        }
-.web1 { background-color:#000000; border:1px solid white; padding:180x;       }
+.web3 { background-color:        #272A2F;}
+
+#proj button { background-image: linear-gradient(to right, #005C97, #363795);	opacity:1; }
+.web1 { background-color:#000000; border:1px solid white; padding:180x;  }
+
 button, .centered  { font-family: 'Quicksand', sans-serif;       }
 label, .container  { font-family: 'Red Hat Display', sans-serif; }
+
 .ig	  {	background-image: linear-gradient(to right, rgb(181,30,194), rgb(30,74,192)); }
 .web2 {	background-image: linear-gradient(to right, rgb(20,88,153), rgb(20,147,91));  }
-.ig:hover, .web2:hover { background-image: none; moz-transition: 0.5s; -webkit-transition: 0.5s; transition: 0.5s;}
+
+.ig:hover, .web2:hover, #proj button:hover 
+{
+	background-image: none;
+	moz-transition: background-image 0.5s ease-in-out;
+	-webkit-transition: background-image 0.5s ease-in-out;
+	transition: background-image 0.5s ease-in-out;
+}
