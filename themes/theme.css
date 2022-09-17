@@ -1,0 +1,77 @@
+body   { font-family: 'Montserrat', sans-serif; background: black; color: white; }
+h1,h3  { text-align: center; }
+iframe { height:300px; width:60%; border:1px solid white; margin: 0 auto; display:block; border-radius: 8px; }
+
+.centered    {  width:90%;  text-align:center;  margin: 0 auto; }
+button:hover {	background-color:white;	color:black; }
+
+@media screen and (max-width: 450px)
+{
+	iframe { width: 90%; }
+	.centered  { width:100%; }
+}
+
+button 
+{
+	cursor:pointer;	    width:40%;	        color:white;	    padding:10px;	border:none;
+	text-align:center;	border-radius:8px;	transition:0.4s;	font-size:18px; margin:10px;
+}
+
+.git  { background-color:#495057; }
+.fb	  {	background-color:rgb(66,103,178); }
+.lin  {	background-color:#0072B1; }
+.yt	  {	background-color:rgb(255,0,0); }
+.tw	  {	background-color:#00ACEE; }
+.blog { background-color:#FC4F08; }
+.tg   { background-color:#0088CC; }
+.qu   { background-color:#A82400; }
+.dis  { background-color:#7289DA; }
+.ig	  {	background-image: linear-gradient(to right, rgb(181,30,194), rgb(30,74,192)); }
+.btn1 { background-color:#000000; border:1px solid white; padding:180x; }
+.btn2 {	background-image: linear-gradient(to right, rgb(20,88,153), rgb(20,147,91)); }
+.btn3 { background-color:#272A2F; }
+.btn4 { background-image: linear-gradient(to right, #005C97, #363795);	opacity:1; }
+.btn5 { background-color:rgb(139,0,0); }
+.wa   {	background-image: linear-gradient(to right,#25D366,#128C7E); }
+.vlc  { background-color:#E85E00; }
+.amz  {	background-image: linear-gradient(to right,#FF9900, #232F3E); }
+.fk   {	background-image: linear-gradient(to right,#F7A200, #047BD5); }
+.pypl {	background-image: linear-gradient(to right, #2997D8, #253B80); }
+.pm   {	background-image: linear-gradient(to right, #8A90C7, #505264); }
+.g1   { background-color: #176BEF; }
+.g2   { background-color: #FF3E30; }
+.g3   { background-color: #F7B529; color:black; }
+.g4   { background-color: #179C52; }
+.ol   { background-color: #00A2ED; }
+.spo  { background-color: #1DB954; }
+.snd  {	background-image: linear-gradient(to right, #F89A3A, #168A43); }
+.sc   { background-color: #FFFA37; color:black; }
+.sk   { background-color: #00AFF0; }
+.vm   { background-color: #1AB7EA; }
+.vb   { background-color: #00405D; }
+.ym   { background-color: #410093; }
+.rd   { background-color: #45668e; }
+.pin  { background-color: #BD081C; }
+.gp   { background-color: #DC4E41; }
+.tm   { background-color: #34465D; }
+
+.ig:hover, .btn2:hover, .btn4:hover, .wa:hover, .amz:hover, .fk:hover, .pypl:hover, .pm:hover, .snd:hover
+{
+	background-image: none;
+	moz-transition: background-image 0.5s ease-in-out;
+	-webkit-transition: background-image 0.5s ease-in-out;
+	transition: background-image 0.5s ease-in-out;
+}
+
+/* For my help
+	GIT - Github		BLOG - Blogger		G - Google
+	FB - Facebook		TG - Telegram		OL - Outlook
+	LIN - LinkedIn		VLC - VLC			SPO - Spotify
+	YT - Youtube		QU - Quora			YM - Yahoo Mail
+	TW - Twitter		DIS - Discord		SND - Sandes
+	IG - Instagram 		WA - Whatsapp		PYPL - PayPal
+	PM - Proton Mail	AMZ - Amazon		FK - Flipkart
+	VIB - Viber			SK - Skype			SC - Snapchat
+	VM - Vimeo			RD - Reddit			PIN - Pinterest
+	GP - Google+		TM - Tumblr			
+*/
