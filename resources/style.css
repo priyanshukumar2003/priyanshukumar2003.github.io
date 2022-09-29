@@ -30,6 +30,7 @@ button
 .pro  { background-color:rgb(139,0,0);}
 .qu   { background-color:#A82400;}
 .web3 { background-color:#272A2F;}
+.dis  { background-color: RGB(114, 137, 218); }
 
 #proj button { background-image: linear-gradient(to right, #005C97, #363795);	opacity:1; }
 .web1 { background-color:#000000; border:1px solid white; padding:180x;  }
